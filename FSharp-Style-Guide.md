@@ -5,6 +5,30 @@ This is an opinionated style guide for FSharp.
 ### Control Flow and 'Patterns'
 - [Railway Oriented Programming](https://fsharpforfunandprofit.com/posts/recipe-part2/) - Scott Wlaschin
 
+## Spacing
+### Indentation
+Indentation scheme used throughout our projects is 4 spaces.
+
+### Infix Operators 
+Always surround infix operators with a space.
+```fsharp
+foo |> bar
+1 + 2
+fish >=> operator
+```
+
+### Type Colon - // TODO: What is this called
+In FSharp the convention seems to be unclear wether to space around the `type colon` or have it aligned to the left. In our codebases we choose to left align as a convention.
+```fsharp
+let func = (param: type) =
+    ..
+
+type Foo = {
+    Field: typeOfField
+}
+```
+
+
 ## Naming Conventions
 ### Namespaces and Modules
 `namespaces` and `modules` are always `PascalCase`
@@ -82,6 +106,9 @@ type <'t> WrappingType = {
 let genericFunction<'t, 'u, 'v> (param1: 't) (param2: 'u): 'v =
     ..
 ```
+
+
+
 
 ### Pattern Matching
 
