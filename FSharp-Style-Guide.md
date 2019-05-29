@@ -1,6 +1,10 @@
 # FSharp Style Guide
 This is an opinionated style guide for FSharp.
 
+## Useful links
+### Control Flow and 'Patterns'
+- [Railway Oriented Programming](https://fsharpforfunandprofit.com/posts/recipe-part2/) - Scott Wlaschin
+
 ## Naming Conventions
 ### Namespaces and Modules
 `namespaces` and `modules` are always `PascalCase`
@@ -32,15 +36,12 @@ type ConstrainedInt = ConstrainedInt of int
 For Example:
 ```fsharp
 type RecordType = {
-    Field1: 
+    Field1:
 }
 with
     static member ToDescription () =
         ..
 ```
-
-### Generic Parameters
-
 
 ### Parameter Lists
 Parameter lists for functions can quickly become unwieldy, especially for functions that have lots of dependencies to be applied.
@@ -63,6 +64,25 @@ let someFunction
 ```
 > Note a new line after the parameter list is preferred but up to personal preference.
 
+### Generic Parameters
+FSharp type inference is very powerful. More often it's beneficial for generic parameters to remain inferred, as it allows for easy maintenance and refactoring. However, in the case where specifying generic parameters are required here are some conventions:
+- All generic parameters are prefixed with an apostrophe. Eg: `'a`
+- Generic parameters should use the letters
+    - `'t 'u 'v`
+    - `'a 'b`
+
+Examples:
+```fsharp
+// Type Parameter
+type <'t> WrappingType = {
+    Field: 't
+}
+
+// Function Parameter
+let genericFunction<'t, 'u, 'v> (param1: 't) (param2: 'u): 'v =
+    ..
+```
+
 ### Pattern Matching
 
 ### Records
@@ -70,6 +90,6 @@ let someFunction
 
 
 ## Programming Conventions
-### Useful links
 
 ### Pipelining
+
