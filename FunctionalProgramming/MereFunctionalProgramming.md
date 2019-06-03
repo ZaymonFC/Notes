@@ -9,4 +9,11 @@ Represent data with `records` and `unions`. These types are composable ADT's.
 - Functions should be deterministic (pure).
     - Deterministic functions are also called `Referentially transparent` or `Pure`
 Although it will be necessary for your application to do anything useful to have functions with side effects, all important decisions should be made with deterministic functions.
+> In doing so you can verify important decisions with tests.
+
+## Lessons from structured programming
+Structured programming has 3 common control structures.
+- `Sequencing`: executing one statement followed by another
+- `Selection`: branching, commonly `if`, `switch / case`
+- `Iteration`: looping constructs
 
