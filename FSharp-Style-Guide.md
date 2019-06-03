@@ -17,10 +17,10 @@ foo |> bar
 fish >=> operator
 ```
 
-### Type Colon - // TODO: What is this called
-In FSharp the convention seems to be unclear wether to space around the `type colon` or have it aligned to the left. In our codebases we choose to left align as a convention.
+### Type Annotations
+In FSharp the convention seems to be unclear wether to space around the `:` or have it aligned to the left. In our codebases we choose to left align as a convention.
 ```fsharp
-let func = (param: type) =
+let func (param: type) =
     ..
 
 type Foo = {
@@ -106,9 +106,6 @@ type <'t> WrappingType = {
 let genericFunction<'t, 'u, 'v> (param1: 't) (param2: 'u): 'v =
     ..
 ```
-
-
-
 
 ### Pattern Matching
 
