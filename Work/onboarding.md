@@ -35,6 +35,13 @@ route "system/administration/"
   POST "property-managers" // Invite PM
 ```
 
-I wonder if this should be one controller or one for organizations and one for property managers?
+- I wonder if this should be one controller or one for organizations and one for property managers?
+- Maybe the onboarding specific routes should be grouped together since they'll both be serving `cx-movers-admin`.
 
-Currently the `RealEstate` controller is a mess. 1000 lines with a bunch of routes that shouldn't logically be collected together. Hmm
+Currently the `RealEstate` controller is a mess. 1000 lines with a bunch of routes that shouldn't logically be collected together. Hmm.
+
+## Read Models
+With the current changes I don't think that there needs to be any significant changes for the read models until further milestones. Some changes that will need to be reflected are:
+- PM new naming scheme.
+
+An aside. The read models will need to know how to build state from the old and new events. After further milestones I wonder if it would be feasible to separate legacy / new read models entirely.
