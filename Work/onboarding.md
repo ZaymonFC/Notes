@@ -28,10 +28,10 @@ route "system/administration/"
   POST "organisations/{id}/property-me/disable"
   POST "property-managers/{id}/property-me/enable"
   POST "property-managers/{id}/property-me/disable"
-      
+
   POST "organisations/{id}/products/enabled"
   POST "organisations/{id}/products/removed"
-  
+
   POST "property-managers" // Invite PM
 ```
 
@@ -60,7 +60,7 @@ This is going to be an annoying one to replace. Once again do I create a new eve
 - Just add an event for
 
 ## One shot or request per section?
-Should think about if we want everything to be submitted at the end of the wizard or 
+Should think about if we want everything to be submitted at the end of the wizard or
 
 
 ## Actionable
@@ -69,6 +69,15 @@ Should think about if we want everything to be submitted at the end of the wizar
     - One shot command information - I'm leaning towards this one in the spirit of lean
     - Progressive requests for each wizard section
 
+
+### Validation Library
+Need to create validators for the following things in the validation library:
+- [ ] Australian phone number
+- [ ] Bank Account Number
+- [ ] Bank BSB Number
+- [X] Australian ACN
+
+
 ### Other Notes - Thoughts
 Why do we have a binding model called empty model?
 ```fsharp
@@ -76,3 +85,14 @@ type EmptyModel() =
     class end
 ```
 I hate it when the architecture forces you to use constructs even when you don't need one. I guess it comes down to an argument of special case versus generic with constraints.
+
+Time to sync up with ben and discuss the questions outlined above.
+
+### PropertyMe Integration
+- What does this even mean any more?
+- To what capacity will this be supported
+- How is it expressed in the system today?
+
+
+### TODOS
+- [ ] Deprecate usage of `CompanyAccountModel` in AdminModels.
