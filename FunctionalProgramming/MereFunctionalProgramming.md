@@ -17,3 +17,6 @@ Structured programming has 3 common control structures.
 - `Selection`: branching, commonly `if`, `switch / case`
 - `Iteration`: looping constructs
 
+Functional programming does not need to be rooted in category theory and more abstract/esoteric constructs to be productive.
+
+In my opinion these things are additional tools to help people identify common laws, abstractions and model domains with increasing levels of specificity and constraint.
