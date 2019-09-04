@@ -68,6 +68,3 @@ Panics are generally errors that occur not because some domain rule has been inv
 > What do I do to handle *panics* then?
 
 Panics don't need to be exposed to the domain. You can throw an exception and have it bubble up to some higher level handler for resilience.
-
-
-
