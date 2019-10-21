@@ -25,17 +25,18 @@ Build -> Grow -> Nourish
 - Only list the absolute essentials in your required skills (2-4)
 
 ## Culture
-Breakdown peoples capabilities
+Breakdown people's capabilities
 
 Have transparency within the process of Salary Views.
 
-People shouldn't have to put their hands up and come to management / leadership:
+> People shouldn't have to put their hands up and come to management / leadership:
+
 - 1:1's
 - Career Progression
 - Salary Reviews
 - Process review and general feedback
 
-People don't feel wanted if they feel like it's on them to approach leadership about these things.
+**People don't feel wanted if they feel like it's on them to approach leadership about these things.**
 
 ## Leadership
 Vision           ->  Earns Followers
