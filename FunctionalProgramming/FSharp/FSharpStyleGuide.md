@@ -1,5 +1,5 @@
 # FSharp Style Guide
-This is an opinionated style guide for FSharp.
+This is an opinionated and **incomplete** style guide for FSharp.
 
 ## Useful links
 ### Control Flow and 'Patterns'
