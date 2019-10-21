@@ -6,6 +6,6 @@ This repository serves as a purpose for me to collect my more formal notes on a 
 - [Software Engineering](./SoftwareEngineering/SoftwareEngineering.md)
 - [Mathematics](./Mathematics/Mathematics.md)
 
-## [Notes about Books](./Books/Books.md)
-## [Notes about Personal Development](./PersonalDevelopment/PersonalDevelopment.md)
-## [Notes about Philosophy](./Philosophy/Philosophy.md)
+### [Notes about Books](./Books/Books.md)
+### [Notes about Personal Development](./PersonalDevelopment/PersonalDevelopment.md)
+### [Notes about Philosophy](./Philosophy/Philosophy.md)

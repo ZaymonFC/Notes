@@ -1,4 +1,5 @@
 # Mathematics
 
-[Catamorphisms](Catamorphisms.md)
-[Monoids](Monoids.md)
+### Contents:
+- [Catamorphisms](Catamorphisms.md)
+- [Monoids](Monoids.md)

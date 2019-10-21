@@ -1,3 +1,4 @@
 # Personal Development
 
-[The Four Tools of Discipline](FourToolsDiscipline.md)
+### Contents:
+- [The Four Tools of Discipline](FourToolsDiscipline.md)

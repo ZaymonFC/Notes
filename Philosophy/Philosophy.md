@@ -1,3 +1,4 @@
 # Philosophy
 
-[The Map is Not the Territory](TheMapIsNotTheTerritory.md)
+### Contents:
+- [The Map is Not the Territory](TheMapIsNotTheTerritory.md)
