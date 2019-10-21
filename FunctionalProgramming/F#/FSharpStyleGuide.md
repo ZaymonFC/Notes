@@ -9,7 +9,7 @@ This is an opinionated style guide for FSharp.
 ### Indentation
 Indentation scheme used throughout our projects is 4 spaces.
 
-### Infix Operators 
+### Infix Operators
 Always surround infix operators with a space.
 ```fsharp
 foo |> bar
