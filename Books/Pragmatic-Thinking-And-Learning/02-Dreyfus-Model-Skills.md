@@ -4,6 +4,7 @@ date: "2019-08-29 17:46:49"
 author: Zaymon Foulds-Cook
 description: Pragmatic Thinking and Learning
 ---
+# 02 - Dreyfus Model of Skill Progression
 
 > Are we going to delve into any theory along this journey of tuning our minds?
 

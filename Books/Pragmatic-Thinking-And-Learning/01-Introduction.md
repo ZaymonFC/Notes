@@ -5,7 +5,7 @@ author: Zaymon Foulds-Cook
 description: Pragmatic Thinking and Learning
 ---
 
-## The Setup and Introductions
+# 01 - The Setup and Introductions
 Some of the most valuable skills a craftsman can have in this day and age are:
 - Learning and Thinking
 - Communication
